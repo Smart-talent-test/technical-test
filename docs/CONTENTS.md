@@ -7,24 +7,30 @@
 
 3. **Metodologías Ágiles (5 puntos):**
    - **Escenario de proyecto:** Describe cómo aplicarías los principios ágiles en un proyecto front-end. Proporciona ejemplos específicos.
+   - **Respuesta**: [3-METODOLOGIAS-AGILES.md)
 
 4. **Administrador de Versiones GIT (5 puntos):**
    - **Ejercicio práctico:** Explica cómo se resuelven conflictos de fusión en un repositorio GIT.
+   - **Respuesta**: [4-RESOLUCION-CONFLICTO-GIT.md)
 
 5. **Refactorización de Software (5 puntos):**
    - **Código práctico:** Mejora un fragmento de código front-end específico y explica tus decisiones de refactorización. Puedes elegir un fragmento de código al azar de internet o algún proyecto.
+   - **Respuesta**: [5-REFACTORIZACION-SOFTWARE.md)
 
 6. **Principios SOLID (5 puntos):**
    - **Pregunta técnica:** Explica cada uno de los principios SOLID y cómo se aplican en el desarrollo front-end.
+   - **Respuesta**: [6-PRINCIPIOS-SOLID-FRONTEND.md)
 
 7. **Código Limpio y Clean Architecture (5 puntos):**
    - **Ejercicio práctico:** Diseña una arquitectura front-end limpia y muestra cómo se relaciona con el código limpio. Proporciona ejemplos concretos.
 
 8. **Estimación de Requerimientos (5 puntos):**
    - **Escenario de proyecto:** Estima el tiempo necesario para implementar una serie de características front-end y explica tu enfoque.
+   - **Respuesta**: [8-ESTIMACION-REQUERIMIENTO.md)
 
 9. **Optimización de Aplicaciones (5 puntos):**
    - **Pregunta técnica:** Describe estrategias de optimización que hayas aplicado en proyectos front-end anteriores.
+   - **Respuesta**: [9-OPTIMIZACION-APLICACIONES.md)
 
 10. **Docker (5 puntos):**
     - **Pregunta técnica:** Explica cómo usarías Docker en un entorno de desarrollo front-end y cuáles serían los beneficios.
