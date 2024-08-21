@@ -1,9 +1,20 @@
-import Button from "./components/atoms/Button";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./AppRoutes";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./utils/theme";
+import { GlobalStyles } from "./styles";
 
 function App() {
   return (
     <>
-      <Button text="send to server" variant="primary" />
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Router>
+          <main>
+            <AppRoutes />
+          </main>
+        </Router>
+      </ThemeProvider>
     </>
   );
 }

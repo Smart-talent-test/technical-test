@@ -1,20 +1,23 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import federation from "@originjs/vite-plugin-federation";
 
 export default defineConfig({
-  plugins: [react()],
-  // Web Component logic
-  define: {
-    'process.env': {}
-  },
+  plugins: [
+    react(),
+    federation({
+      name: "host-app",
+      remotes: {
+        header: "http://localhost:5180/assets/remoteEntry.js",
+      },
+      shared: ["react"],
+    }),
+  ],
   build: {
-    lib: {
-      entry: "./src/index.tsx",
-      name: "st-button",
-      fileName: (format) => `button.${format}.js`,
-    },
+    modulePreload: false,
     target: "esnext",
-    rollupOptions: {
-    },
+
+    minify: false,
+    cssCodeSplit: false,
   },
 });
