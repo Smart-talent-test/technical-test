@@ -35,6 +35,7 @@
 
 10. **Docker (5 puntos):**
     - **Pregunta técnica:** Explica cómo usarías Docker en un entorno de desarrollo front-end y cuáles serían los beneficios.
+   - **Respuesta**: [10-COMO-USARIA-DOCKER-FRONT.md](10-COMO-USARIA-DOCKER-FRONT.md)
 
 11. **Implementación de un Componente Reutilizable (5 puntos):**
     - **Requerimiento:** Crea un componente front-end (por ejemplo, un botón personalizado) que sea completamente reutilizable en diferentes partes de una aplicación. Debe tener opciones de personalización y ser compatible con tanto Angular como React.
