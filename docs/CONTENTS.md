@@ -23,6 +23,7 @@
 
 7. **Código Limpio y Clean Architecture (5 puntos):**
    - **Ejercicio práctico:** Diseña una arquitectura front-end limpia y muestra cómo se relaciona con el código limpio. Proporciona ejemplos concretos.
+   - **Respuesta**: [7-CODIGO-LIMPIO-EJEMPLO.md](7-CODIGO-LIMPIO-EJEMPLO.md)
 
 8. **Estimación de Requerimientos (5 puntos):**
    - **Escenario de proyecto:** Estima el tiempo necesario para implementar una serie de características front-end y explica tu enfoque.
