@@ -39,6 +39,7 @@
 
 11. **Implementación de un Componente Reutilizable (5 puntos):**
     - **Requerimiento:** Crea un componente front-end (por ejemplo, un botón personalizado) que sea completamente reutilizable en diferentes partes de una aplicación. Debe tener opciones de personalización y ser compatible con tanto Angular como React.
+   - **Respuesta**: [11-CREACION-COMPONENTE-REUTILIZABLE.md](11-CREACION-COMPONENTE-REUTILIZABLE.md)
 
 12. **Gestión de Estado con Redux o NgRx (5 puntos):**
     - **Requerimiento:** Implementa la gestión de estado utilizando Redux (para React) o NgRx (para Angular) en una pequeña aplicación de lista de tareas. Debe incluir acciones, reducers y un componente conectado que muestre la lista de tareas.
@@ -48,6 +49,7 @@
 
 14. **Implementación de Pruebas Unitarias (5 puntos):**
     - **Requerimiento:** Escribe pruebas unitarias para una función o componente específico. Utiliza una biblioteca de pruebas como Jest (para React) o Jasmine/Karma (para Angular).
+   - **Respuesta**: [14-PRUEBAS-UNITARIAS.md](14-PRUEBAS-UNITARIAS.md)
 
 15. **Interfaz de Usuario Responsiva (5 puntos):**
     - **Requerimiento:** Diseña y desarrolla una interfaz de usuario responsiva que se adapte a diferentes tamaños de pantalla y dispositivos. Utiliza CSS flexbox o grid para lograr la disposición flexible de elementos.

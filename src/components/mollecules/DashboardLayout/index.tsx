@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { Content, DashboardContainer, MainContent } from "./Dashboard.styled";
 import { pageAnimations } from "../../../utils/motion";
 import Header from "header/Header";
+import Sidebar from "header/Sidebar";
 
 const DashboardLayout: React.FunctionComponent = () => {
   return (
@@ -16,7 +17,7 @@ const DashboardLayout: React.FunctionComponent = () => {
     >
       <Header />
       <MainContent>
-        {/* <Sidebar /> */}
+        <Sidebar />
         <Content>
           <Outlet />
         </Content>
